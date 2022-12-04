@@ -1,27 +1,24 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
+import SocialLinks from "./components/SocialLinks";
 
-import Header from "./components/header/Header";
-import Navbar from "./components/nav/Navbar";
-import About from "./components/about/About";
-import Experience from "./components/experience/Experience"
-import Service  from "./components/service/Service"; 
-import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from  "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <>
-    <Header/>
+    <div className="gap-y-5">
     <Navbar/>
+    <Home/>
     <About/>
-    <Experience/>
-    <Service/>
     <Portfolio/>
-    <Testimonials/>
+    <Experience/>
     <Contact/>
-    <Footer/>
-    </>
+
+    <SocialLinks/>
+    </div>
   );
 }
 
