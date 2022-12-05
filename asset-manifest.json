@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.abf810a3.css",
-    "main.js": "/My-Portfolio/static/js/main.7b29ecdf.js",
+    "main.css": "/My-Portfolio/static/css/main.33396e4f.css",
+    "main.js": "/My-Portfolio/static/js/main.4cf0caaa.js",
     "static/media/fashionPool.png": "/My-Portfolio/static/media/fashionPool.cb243138ba534576c6ed.png",
     "static/media/maxFashion.png": "/My-Portfolio/static/media/maxFashion.15bea0cf65988354f3bb.png",
     "static/media/reactParallax.jpg": "/My-Portfolio/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
     "static/media/reactWeather.jpg": "/My-Portfolio/static/media/reactWeather.a1988356c4f5a620716e.jpg",
     "static/media/textBoard.png": "/My-Portfolio/static/media/textBoard.8271812d0d2b09b2decb.png",
-    "static/media/graphql.png": "/My-Portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/reactSmooth.jpg": "/My-Portfolio/static/media/reactSmooth.a2ffb0a8d6db6a651603.jpg",
     "static/media/react.png": "/My-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/heroImage.jpg": "/My-Portfolio/static/media/heroImage.fac0a09704e064b818b6.jpg",
+    "static/media/redux.png": "/My-Portfolio/static/media/redux.4ea2c9105f4e7643b31c.png",
     "static/media/nextjs.png": "/My-Portfolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
     "static/media/github.png": "/My-Portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/My-Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/My-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/My-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.abf810a3.css.map": "/My-Portfolio/static/css/main.abf810a3.css.map",
-    "main.7b29ecdf.js.map": "/My-Portfolio/static/js/main.7b29ecdf.js.map"
+    "main.33396e4f.css.map": "/My-Portfolio/static/css/main.33396e4f.css.map",
+    "main.4cf0caaa.js.map": "/My-Portfolio/static/js/main.4cf0caaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.abf810a3.css",
-    "static/js/main.7b29ecdf.js"
+    "static/css/main.33396e4f.css",
+    "static/js/main.4cf0caaa.js"
   ]
 }
