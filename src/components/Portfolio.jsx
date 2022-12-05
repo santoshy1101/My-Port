@@ -23,7 +23,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: textBoard,
-      deom: "https://text-board-0ab662.netlify.app/",
+      demo: "https://text-board-0ab662.netlify.app/",
       code: "https://github.com/santoshy1101/Text-Board-WebApp",
     },
     {
@@ -50,7 +50,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full text-white bg-gradient-to-b from-black to-gray-800 md:min-h-full ">
+      className="w-full text-white h-fu bg-gradient-to-b from-black to-gray-800 md:min-h-full ">
       <div
         className="flex flex-col justify-center max-w-screen-lg p-4 mx-auto ">
         <div className="pb-8">
@@ -68,9 +68,10 @@ const Portfolio = () => {
           
             <div key={id} className="rounded-lg shadow-md shadow-gray-600">
               <img
+              onClick={()=>window.open(demo)}
                 src={src}
                 alt="1"
-                className="duration-200 rounded-md hover:scale-105"
+                className="duration-200 rounded-md cursor-pointer hover:scale-105"
               />
 
               <div className="flex items-center justify-center">

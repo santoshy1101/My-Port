@@ -5,9 +5,10 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
-import github from "../assets/github.png";
+import redux from "../assets/redux.png";
+import github from "../assets/github.png"; 
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/typescript.png";
 
 const Experience = () => {
   const techs = [
@@ -48,10 +49,22 @@ const Experience = () => {
       style: "shadow-sky-400",
     },
     {
+      id: 7,
+      src: redux,
+      title: "Redux",
+      style: "shadow-violet-500",
+    },
+    {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 9,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-300",
     },
   ];
 
@@ -72,9 +85,10 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              onClick={()=>window.open(src)} 
+              className={`shadow-lg hover:scale-105 duration-500 py-2 cursor-pointer rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={src} className="w-20 mx-auto cursor-pointer" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

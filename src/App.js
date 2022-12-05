@@ -9,7 +9,7 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div className="gap-y-5">
+    <div className="gap-y-5 bg-gradient-to-b from-black to-gray-800">
     <Navbar/>
     <Home/>
     <About/>
